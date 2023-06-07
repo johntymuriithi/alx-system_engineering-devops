@@ -4,3 +4,4 @@ cd changes the working directory to the home directory
 ls -l command display current directory contents in a long format
 ls -la list hidden files together with other contents in a long format
 ls -lan command displays contents of directory in long format with user and group IDs displayed numerically and hidden files(.)
+mkdir creates a new directory
