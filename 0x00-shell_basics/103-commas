@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -a |LC_COLLATE=C sort -df | awk 'BEGIN{ORS=","} {print $0} END{print "\n"}
