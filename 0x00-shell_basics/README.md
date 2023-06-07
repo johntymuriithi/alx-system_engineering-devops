@@ -8,3 +8,4 @@ mkdir creates a new directory
 mv /tmp/betty /tmp/my_first_directory moves file betty from tmp to my_first_directory
 rm deletes files in our case betty
 rm -r deletes directories which are not empty
+cd .. command changes working directory to the previous one
