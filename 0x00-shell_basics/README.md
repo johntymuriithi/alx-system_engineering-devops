@@ -11,3 +11,4 @@ rm -r deletes directories which are not empty
 cd .. command changes working directory to the previous one
 ls -la . .. /boot
 file /tmp/iamafile prints the type of the file named iamafile
+ln -s /bin/ls __ls__ command creates a symbolic links
