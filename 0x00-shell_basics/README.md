@@ -16,3 +16,4 @@ cp -u -n *.html .. this command copies all the HTML files from the current worki
 mv [A-Z]* /tmp/u/ command that moves all files beginning with an uppercase letter to the directory /tmp/u
 rm *~ command deletes all files that end with ~
 mkdir -p makes nested folders/directories
+0 string SCHOOL School data file detects School data files
