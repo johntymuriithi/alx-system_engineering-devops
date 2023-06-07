@@ -10,3 +10,4 @@ rm deletes files in our case betty
 rm -r deletes directories which are not empty
 cd .. command changes working directory to the previous one
 ls -la . .. /boot
+file /tmp/iamafile prints the type of the file named iamafile
