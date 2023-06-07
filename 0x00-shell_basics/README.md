@@ -13,3 +13,4 @@ ls -la . .. /boot
 file /tmp/iamafile prints the type of the file named iamafile
 ln -s /bin/ls __ls__ command creates a symbolic links
 cp -u -n *.html .. this command copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+mv [A-Z]* /tmp/u/ command that moves all files beginning with an uppercase letter to the directory /tmp/u
