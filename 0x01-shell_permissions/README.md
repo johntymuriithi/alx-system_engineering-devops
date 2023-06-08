@@ -12,3 +12,4 @@ chmod 751 cretes create directory with 751 permissions
 chmod --reference=olleh hello sets permisions of ollen as hello
 find . -type d -exec chmod +x {} + command adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
 chown :school hello command that changes the group owner to school for the file hello
+sudo chown -R vincent:staff . commands changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
