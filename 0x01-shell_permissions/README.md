@@ -15,3 +15,4 @@ chown :school hello command that changes the group owner to school for the file 
 sudo chown -R vincent:staff . commands changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
 sudo chown -h vincent:staff _hello command changes the owner and the group owner of _hello to vincent and staff respectively.
 if [ "$(stat -c '%U' hello)" = "guillaume" ]; then sudo chown betty hello; fi command changes the owner of the file hello to betty only if it is owned by the user guillaume
+telnet towel.blinkenlights.nl command will play the StarWars IV episode in the termina
