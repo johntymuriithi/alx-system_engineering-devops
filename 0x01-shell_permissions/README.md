@@ -4,3 +4,4 @@ group = command prints out the groups that the cureent user is part of
 sudo chown command changes the ownership of a file
 touch command creats an empty file
 chmod 700 file_name command gives permmisions of execution to the owner of a certain file
+chmod u+x,g+x,o+r hello gives persion to user groupp and owner to execute file
