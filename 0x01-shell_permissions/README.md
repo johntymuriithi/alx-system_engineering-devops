@@ -9,3 +9,4 @@ chmod 751 hello command permits execution of hello file to user owner and the gr
 chmod 007 hello command permits all permissions to the users
 chmod 751 added
 chmod 751 cretes create directory with 751 permissions
+chmod --reference=olleh hello sets permisions of ollen as hello
