@@ -17,3 +17,4 @@ mv [A-Z]* /tmp/u/ command that moves all files beginning with an uppercase lette
 rm *~ command deletes all files that end with ~
 mkdir -p makes nested folders/directories
 0 string SCHOOL School data file detects School data files
+su changes user from one to the other
