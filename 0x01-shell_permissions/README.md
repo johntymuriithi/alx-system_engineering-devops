@@ -8,7 +8,7 @@ chmod u+x,g+x,o+r hello gives persion to user groupp and owner to execute file
 chmod 751 hello command permits execution of hello file to user owner and the group
 chmod 007 hello command permits all permissions to the users
 chmod 751 added
-chmod 751 cretes create directory with 751 permissions
+mkdir -m 751 my_dir command create directory with 751 permissions
 chmod --reference=olleh hello sets permisions of ollen as hello
 find . -type d -exec chmod +x {} + command adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
 chown :school hello command that changes the group owner to school for the file hello
