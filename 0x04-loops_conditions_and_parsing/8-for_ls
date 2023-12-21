@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# this is  script to print out dfolders files
+ls -l
