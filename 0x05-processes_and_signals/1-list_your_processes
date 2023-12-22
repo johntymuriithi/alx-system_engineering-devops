@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # gets the list of all runnning proccess
 
-ps -aux
+ps -aux --forest
