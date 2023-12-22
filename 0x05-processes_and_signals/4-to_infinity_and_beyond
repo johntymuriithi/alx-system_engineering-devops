@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# print out a ine to infinity
+
+count=1
+while [ $count -le 10 ]
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
