@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# this shows certain bash files
+
+ps -ef | grep bash
+# shellcheck disable=SC2009
