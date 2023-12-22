@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# its time to kill proccese
+
+proc="4-to_infinity_and_beyond"
+pid=$(pgrep "$process_name")
+
+kill $pid
