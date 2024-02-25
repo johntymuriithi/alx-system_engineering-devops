@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# # Server details
+# server= "school"
+# user="ubuntu"
+
+# SSH command with single-character flags
+ssh ubuntu@18.233.63.131
