@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-ssh -i ~/.ssh/school ubuntu@18.233.63.131
+ssh -i ~/.ssh/school ubuntu@35.174.204.16

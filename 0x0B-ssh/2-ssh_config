@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-Host 18.233.63.131
-    HostName 18.233.63.131
+Host 35.174.204.16
+    HostName 35.174.204.16
     User ubuntu
     IdentityFile ~/.ssh/school
     PasswordAuthentication no
