@@ -1,0 +1,31 @@
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License, version 2.0, for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+#
+# The MySQL  Server configuration file.
+#
+# For explanations see
+# http://dev.mysql.com/doc/mysql/en/server-system-variables.html
+# The MySQL Server configuration file.
+
+[mysqld]
+pid-file        = /var/run/mysqld/mysqld.pid
+socket          = /var/run/mysqld/mysqld.sock
+datadir         = /var/lib/mysql
+log-error       = /var/log/mysql/error.log
+
+# Allow connections from all interfaces
+#bind-address    = 0.0.0.0
+
+# Replication settings
+symbolic-links = 0
+server-id       = 2   # Unique ID for the replica server
+relay-log       = /var/log/mysql/mysql-relay-bin
+log_bin         = /var/log/mysql/mysql_bin_log.log
+binlog-do-db    = tyrell_corp   # Name of the database to replicate
