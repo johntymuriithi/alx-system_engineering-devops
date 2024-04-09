@@ -39,4 +39,3 @@ def top_ten(subreddit):
     except requests.RequestException:
         # Print None if there's any exception during the request
         print(None)
-        

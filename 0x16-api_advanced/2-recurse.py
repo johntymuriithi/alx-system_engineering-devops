@@ -50,4 +50,3 @@ def recurse(subreddit, hot_list=[], count=0, after=""):
             return hot_list  # Return hot_list if no more posts
     except Exception:
         return None  # Return None if there's any exception
-    

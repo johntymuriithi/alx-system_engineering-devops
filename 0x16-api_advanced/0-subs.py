@@ -37,4 +37,3 @@ def number_of_subscribers(subreddit):
     except Exception:
         # Return 0 if there's any exception during the request
         return 0
-        
