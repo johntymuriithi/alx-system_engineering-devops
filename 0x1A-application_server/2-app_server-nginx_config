@@ -1,11 +1,9 @@
-# Nginx to serve the route /airbnb-onepage/ from AirBnB_clone_v2.
-
 server {
     # Listen on port 80
     listen      80 default_server;
     listen      [::]:80 default_server ipv6only=on;
 
-	# This could be the domain name
+    # This could be the domain name
     server_name 35.174.204.16;
 
     # Customize HTTP response header
